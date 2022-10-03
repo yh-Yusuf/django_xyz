@@ -1,0 +1,21 @@
+<html>
+<head> pro1</head>
+<body>
+<h1>Hello WORLDJS</h1>
+
+<!--{% for i in info %}-->
+<!--{{i}}<br>-->
+
+<!--{% endfor %}-->
+<!--<a href="/next_page">Click on the link</a>-->
+{% if time %}
+{{time}}
+
+{%else %}
+<p>No value</p>
+
+{%endif%}
+<a href= "{% url 'next_page' %}"> click for next page</a>
+
+</body>
+</html>
