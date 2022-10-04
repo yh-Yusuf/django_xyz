@@ -19,6 +19,6 @@ from myweb.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', home),
+    path('/', home),
     path('next_page/', second_page, name = 'next_page'),
 ]
